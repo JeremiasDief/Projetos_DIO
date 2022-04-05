@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+image_processing-test-JeremiasDief/__init__.py
+image_processing-test-JeremiasDief/processing/__init__.py
+image_processing-test-JeremiasDief/processing/combination.py
+image_processing-test-JeremiasDief/processing/transformation.py
+image_processing-test-JeremiasDief/utils/__init__.py
+image_processing-test-JeremiasDief/utils/io.py
+image_processing-test-JeremiasDief/utils/plot.py
+image_processing_test_JeremiasDief.egg-info/PKG-INFO
+image_processing_test_JeremiasDief.egg-info/SOURCES.txt
+image_processing_test_JeremiasDief.egg-info/dependency_links.txt
+image_processing_test_JeremiasDief.egg-info/requires.txt
+image_processing_test_JeremiasDief.egg-info/top_level.txt
