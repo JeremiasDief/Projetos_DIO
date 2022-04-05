@@ -1,0 +1,15 @@
+--- Este .txt serviu apenas como exemplo para enviar um primeiro
+arquivo ao repositório criado no GitHub para o Desafio proposto
+pela DIO --- 
+
+
+    - Arquivo criado para anotar considerações importantes
+a respeito do Git/GitHub e servir como base para a criação
+de um Repositório no GitHub:
+
+ - Link para download do Git: https://git-scm.com/downloads
+
+ - O Git Bash é um terminal extendido para otimizar o uso do
+GIT, e por ele podem ser feitos os comandos para clonar e
+modificar Repositórios e commitar e  enviar seus respectivos 
+arquivos para o GitHub;
