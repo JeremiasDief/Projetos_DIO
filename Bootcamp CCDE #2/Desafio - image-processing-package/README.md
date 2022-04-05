@@ -67,7 +67,7 @@ from image-processing-test-JeremiasDief.processing import combination
 
 combination.find_difference(image1, image2)
 ```
-<img width="auto" src="https://github.com/HenriqueMAP/image-processing-package/blob/master/image-processing-test.png?raw=true">
+<img width="auto" src="https://github.com/JeremiasDief/Projetos_DIO/blob/main/Bootcamp%20CCDE%20%232/Desafio%20-%20image-processing-package/image-processing-test-JeremiasDief.png">
 
 ## Autor (quem hospedou o projeto no Test Pypi)
 Jeremias Diefenthaler, baseado na publicação de HenriqueMAP
