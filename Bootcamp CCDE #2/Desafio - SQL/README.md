@@ -71,7 +71,7 @@
 ---------------------------------------------
 
 ### Imagem do diagrama relacional entre as entidades (tabelas)
-<img width="auto" src="https://github.com/JeremiasDief/Projetos_DIO/blob/main/Bootcamp%20CCDE%20%232/Desafio%20-%20image-processing-package/image-processing-test-JeremiasDief.png">
+<img width="auto" src="https://github.com/JeremiasDief/Projetos_DIO/blob/main/Bootcamp%20CCDE%20%232/Desafio%20-%20SQL/Diagrama_relacional.png">
 
 ---------------------------------------------
 
