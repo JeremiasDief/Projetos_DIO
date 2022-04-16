@@ -1,0 +1,19 @@
+Desafio DIO - Criando um Ecossistema Hadoop Totalmente Gerenciado com Google Cloud
+
+Resultado do desafio:
+
+	- As 10 palavras mais utilizadas no arquivo livro.txt
+
+	1: ('the', 4066)
+	2: ('and', 2969)
+	3: ('of', 2746)
+	4: ('I', 2719)
+	5: ('to', 2144)
+	6: ('my', 1631)
+	7: ('a', 1394)
+	8: ('in', 1129)
+	9: ('was', 994)
+	10: ('that', 986)
+
+	Obs.: o "vazio" apareceu no resultado como o oitavo mais frequente, mas
+   foi desconsiderado da lista dos 10+ por não ser uma palavra (nº vezes = 1186)
