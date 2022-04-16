@@ -41,7 +41,8 @@
 
  <p align="center"><img src="./Tela criando o job.png" width="1000"></p>
 
- - Verificar o novo diretório criado dentro do meu Bucket, chamado ```resultado```, que contém o arquivo resultante do Job: ```part-00000```;
+ - Executar o job-desafio-jeremiasdief e aguardar sua conclusão;
+ - Após, Verificar o novo diretório criado dentro do meu Bucket, chamado ```resultado```, que contém o arquivo resultante do Job: ```part-00000```;
  - Deste arquivo resultando, verificar as 10 palavras que mais se repetem dentro do arquivo ```livro.txt``` e salvá-las em um novo arquivo chamado ```resultado.txt```.
 
 ### __*Os dois arquivos resultantes do desafio (```part-00000``` e ```resultado.txt```) se encontram dentro da pasta ```resultado``` deste repositório.*__
