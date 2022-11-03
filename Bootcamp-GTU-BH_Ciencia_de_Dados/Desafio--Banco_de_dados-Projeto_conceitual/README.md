@@ -5,7 +5,7 @@
 ### Aula: Banco de Dados
 ### Professora: Juliana Mascarenhas
 #### Tecnologia: SQL (para este projeto foi utilizado o MySQL Workbench)
-#### Data: 06/04/2022
+#### Data: 01/11/2022
 -----------------------------------------
 ## Objetivos do desafio:
 - Desenvolver na prática o conhecimento adquirido nas aulas de Banco de Dados;
