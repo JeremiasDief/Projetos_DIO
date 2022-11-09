@@ -1,0 +1,124 @@
+{
+    "Music": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Guns N' Roses"},
+                  "SongTitle": {"S": "November Rain"},
+                  "AlbumTitle": {"S": "Use Your Illusion I"},
+                  "SongYear": {"S": "1991"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Guns N' Roses"},
+                  "SongTitle": {"S": "Don't Cry"},
+                  "AlbumTitle": {"S": "Use Your Illusion I"},
+                  "SongYear": {"S": "1991"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Guns N' Roses"},
+                  "SongTitle": {"S": "Welcome To The Jungle"},
+                  "AlbumTitle": {"S": "Appetite for Destruction"},
+                  "SongYear": {"S": "1987"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Guns N' Roses"},
+                  "SongTitle": {"S": "Paradise City"},
+                  "AlbumTitle": {"S": "Appetite for Destruction"},
+                  "SongYear": {"S": "1987"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Coldplay"},
+                  "SongTitle": {"S": "Viva La Vida"},
+                  "AlbumTitle": {"S": "Viva la Vida or Death and All His Friends"},
+                  "SongYear": {"S": "2008"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Coldplay"},
+                  "SongTitle": {"S": "Fix You"},
+                  "AlbumTitle": {"S": "X&Y"},
+                  "SongYear": {"S": "2005"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Coldplay"},
+                  "SongTitle": {"S": "Yellow"},
+                  "AlbumTitle": {"S": "Parachutes"},
+                  "SongYear": {"S": "2000"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Coldplay"},
+                  "SongTitle": {"S": "A Head Full of Dreams"},
+                  "AlbumTitle": {"S": "A Head Full of Dreams"},
+                  "SongYear": {"S": "2015"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Green Day"},
+                  "SongTitle": {"S": "Basket Case"},
+                  "AlbumTitle": {"S": "Dookie"},
+                  "SongYear": {"S": "1994"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Green Day"},
+                  "SongTitle": {"S": "She"},
+                  "AlbumTitle": {"S": "Dookie"},
+                  "SongYear": {"S": "1994"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Green Day"},
+                  "SongTitle": {"S": "Holiday"},
+                  "AlbumTitle": {"S": "American Idiot"},
+                  "SongYear": {"S": "2004"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Green Day"},
+                  "SongTitle": {"S": "American Idiot"},
+                  "AlbumTitle": {"S": "American Idiot"},
+                  "SongYear": {"S": "2004"}
+                }
+            }
+        }
+      ]
+}

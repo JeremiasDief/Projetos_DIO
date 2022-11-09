@@ -3,7 +3,7 @@
 ## Autor: Jeremias Diefenthaler
 
 ### Aula: Python para Cientistas de Dados
-### Professora: Neylson Crepalde
+### Professor: Neylson Crepalde
 #### Tecnologia: Pyhton e Jupyter Notebook
 #### Data: 25/10/2022
 -----------------------------------------
