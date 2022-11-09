@@ -16,7 +16,7 @@
 
 ## Importante: este desafio foi reproduzido através do repositório disponibilizado pelo Professor, que pode ser acessado pelo link abaixo:
 
-    https://github.com/cassianobrexbit/dio-live-dynamodb
+    <https://github.com/cassianobrexbit/dio-live-dynamodb>
 
 ----------------------------------------------
 
