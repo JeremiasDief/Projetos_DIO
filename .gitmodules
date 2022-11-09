@@ -1,0 +1,3 @@
+[submodule "Bootcamp-GTU-BH_Ciencia_de_Dados/Desafio--Boas_praticas_com_DynamoDB"]
+	path = Bootcamp-GTU-BH_Ciencia_de_Dados/Desafio--Boas_praticas_com_DynamoDB
+	url = git@github.com:JeremiasDief/Desafio--Boas_praticas_com_DynamoDB.git
