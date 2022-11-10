@@ -101,7 +101,7 @@ group by state;
 ![Query 3: População do estado Rio Grande do Sul](imgs/etapa8-AWS-Athena_Query-4.png)
 
 - Verificar queries não salvas no bucket criado no S3
-- Salavar queries -> Executar novamente -> Verificar no bucket criado no S3
+- Salvar queries -> Executar novamente -> Verificar no bucket criado no S3
 
 
 #### Criando nova tabela
