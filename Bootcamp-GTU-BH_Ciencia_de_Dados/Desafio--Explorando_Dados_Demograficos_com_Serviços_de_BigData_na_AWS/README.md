@@ -34,10 +34,12 @@
 - Amazon S3 Console -> Buckets -> Create bucket -> Bucket name [nome_do bucket] - Create bucket
 - Create folder (Criar uma pasta chamada ```/output``` e outra com o nome do seu conjunto de dados. Este nome irá definir o nome da tabela criada no Glue)
 
+##### Criação do Bucket e Folders
 ![Criação do Bucket e Folders](imgs/etapa1-criacao_bucket&folders.png)
 
 - Upload dos arquivos de dados localizados na pasta ```/data```
 
+##### Upload do arquivo .csv
 ![Upload do arquivo .csv](imgs/etapa2-upload_arquivo.png)
 
 
@@ -52,10 +54,12 @@
 - Group behavior [Create a single schema for each S3 path]
 - Finish
 
+##### Criação do Crawler
 ![Criação do Crawler](imgs/etapa3-criacao_crawler_no_AWS-Glue.png)
 
 - Databases -> Tables -> Visualizar dados das tabelas criadas
 
+##### Tabela criada após "rodar" o crawler
 ![Tabela criada após "rodar" o crawler](imgs/etapa4-crawler-run_criacao_tabela_population.png)
 
 
@@ -71,6 +75,7 @@ select
     sum(population)
 from "populationdb"."population";
 ```
+##### Query 1: População total
 ![Query 1: População total](imgs/etapa5-AWS-Athena_Query-1.png)
 
 ```
@@ -80,6 +85,7 @@ select
 from "populationdb"."population"
 where city='Porto Alegre';
 ```
+##### Query 2: População da cidade Porto Alegre
 ![Query 2: População da cidade Porto Alegre](imgs/etapa6-AWS-Athena_Query-2.png)
 
 ```
@@ -97,11 +103,13 @@ from "populationdb"."population"
 where state='Rio Grande do Sul'
 group by state;
 ```
+##### Query 3: População da região Sul
 ![Query 3: População da região Sul](imgs/etapa7-AWS-Athena_Query-3.png)
-![Query 3: População do estado Rio Grande do Sul](imgs/etapa8-AWS-Athena_Query-4.png)
+##### Query 4: População do estado Rio Grande do Sul
+![Query 4: População do estado Rio Grande do Sul](imgs/etapa8-AWS-Athena_Query-4.png)
 
 - Verificar queries não salvas no bucket criado no S3
-- Salavar queries -> Executar novamente -> Verificar no bucket criado no S3
+- Salvar queries -> Executar novamente -> Verificar no bucket criado no S3
 
 
 #### Criando nova tabela
@@ -118,13 +126,15 @@ group by state;
 - Select database -> select table -> Edit or preview -> Save & visualize
 - Criar visualizações selecionando colunas, criando filtros e parâmetros e selecionando Visual types para gráficos.
 
+##### QuickSight: Visualização da população total por estado
 ![QuickSight: Visualização da população total por estado](imgs/etapa9-AWS-QuickSight_Visu_Pop-by-state.png)
 
+##### QuickSight: Visualização da população total por estado da região Sul
 ![QuickSight: Visualização da população total por estado da região Sul](imgs/etapa10-AWS-QuickSight_Visu_Pop-by-state_Filter-by-Region.png)
 
+##### QuickSight: Visualização das 10 maiores populações por cidade
 ![QuickSight: Visualização das 10 maiores populações por cidade](imgs/etapa11-AWS-QuickSight_Visu_Pop-by-City_Filter-by-Top-10-Pop.png)
 
 
 ### Eliminar recursos
  - Exluir os elementos criados
-
